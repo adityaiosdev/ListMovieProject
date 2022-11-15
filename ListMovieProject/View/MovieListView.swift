@@ -12,7 +12,6 @@ import SwiftyJSON
 
 struct MovieListView: View {
     
-    @State private var selectedIndex: Int?
     @State private var isSelected = false
     @State var movieImageURL = ""
     @State var bannerimageURL = ""
